@@ -1,0 +1,7 @@
+span {
+  display: inline-flex;
+  align-items: center;
+  font-size: large;
+  color: #f65261;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.editMovieContainer > h1 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.editMovieContainer > p {
+  font-family: 'Roboto', sans-serif;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.editMovieContainer > :nth-last-child(1) {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.editMovieContainer > :nth-last-child(1) > * {
+  width: 35%;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.editMovieContainer > :nth-last-child(1) > :nth-child(1) {
+  margin-left: 3%;
+  background: transparent;
+  border: #f65261 solid 1px;
+  color: #f65261;
+}
+
+.editMovieContainer > :nth-last-child(1) > :nth-child(2) {
+  margin-left: 3%;
+  background-color: #f65261;
+  border: none;
+  color: #ffffff;
+}

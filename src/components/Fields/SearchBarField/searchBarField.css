@@ -1,0 +1,10 @@
+.is-invalid {
+  border: 1px solid #f65261;
+}
+
+.error {
+  color: #f65261;
+  position: absolute;
+  font-size: x-small;
+  margin-top: 1%;
+}

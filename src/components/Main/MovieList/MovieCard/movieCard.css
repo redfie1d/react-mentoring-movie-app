@@ -1,0 +1,32 @@
+.movieCardContainer {
+  height: 100%;
+  position: relative;
+}
+
+.movieCardContainer > img {
+  height: 85%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.movieCardContainer > span {
+  color: #9ca4ab;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.titleAndYear {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleAndYear > span {
+  color: #9ca4ab;
+}
+
+.titleAndYear > :nth-child(2) {
+  padding: 3px 10px;
+  border: 1px solid #9ca4ab;
+  border-radius: 5px;
+}

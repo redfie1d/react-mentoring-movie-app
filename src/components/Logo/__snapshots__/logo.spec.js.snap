@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render without crashing 1`] = `
+"<Logo>
+  <span onClick={[Function: handleLogo]}>
+    <b>
+      netflix
+    </b>
+    roulette
+  </span>
+</Logo>"
+`;
